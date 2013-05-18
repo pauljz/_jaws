@@ -28,7 +28,7 @@ function say {
 
 say "Generating Site"
 
-jekyll --no-server --no-auto --pygments
+$JAWS_GENERATE
 
 #
 # Use absolute CDN paths for images, css, js

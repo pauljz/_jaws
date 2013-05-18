@@ -4,6 +4,11 @@
 JAWS_BUCKET=s3://example/
 
 ##
+## The command used to generate your site.
+##
+JAWS_GENERATE="jekyll --no-server --no-auto --pygments"
+
+##
 ## Max age cache settings
 ##
 JAWS_LONGCACHE=2678400
