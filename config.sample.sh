@@ -4,6 +4,13 @@
 JAWS_BUCKET=s3://example/
 
 ##
+## CDN Paths
+##   If desired, these can be the same. You might want them to be different to have different CloudFront settings
+##
+JAWS_STATICCDN=http://static.example.com/    
+JAWS_IMAGECDN=http://images.example.com/
+
+##
 ## The command used to generate your site.
 ##
 JAWS_GENERATE="jekyll --no-server --no-auto --pygments"
@@ -13,13 +20,6 @@ JAWS_GENERATE="jekyll --no-server --no-auto --pygments"
 ##
 JAWS_LONGCACHE=2678400
 JAWS_SHORTCACHE=86400
-
-##
-## CDN Paths
-##   If desired, these can be the same. You might want them to be different to have different CloudFront settings
-##
-JAWS_STATICCDN=http://static.example.com/    
-JAWS_IMAGECDN=http://images.example.com/
 
 ##
 ## Command to use to generate versions/timestamps on static content. If you're not using git, try the date one
