@@ -1,4 +1,3 @@
-export INVALIDATE=--cf-invalidate
 export WORKING_DIR=`pwd`
 export SCRIPTS_DIR=`dirname $0`
 cd $SCRIPTS_DIR
