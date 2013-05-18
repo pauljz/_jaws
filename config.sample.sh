@@ -25,11 +25,6 @@ JAWS_REVISION=`git rev-parse HEAD`
 # JAWS_REVISION=`date +%s`
 
 ##
-## Path to your deployment scripts
-##
-JAWS_PATH=_scripts/
-
-##
 ## Whether or not to use color in the output
 ##
 ## Use color:

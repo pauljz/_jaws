@@ -1,2 +1,5 @@
 export INVALIDATE=--cf-invalidate
-_scripts/raw-publish.sh
+export WORKING_DIR=`pwd`
+export SCRIPTS_DIR=`dirname $0`
+cd $SCRIPTS_DIR
+bash ./raw-publish.sh

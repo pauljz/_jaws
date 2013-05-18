@@ -2,9 +2,6 @@
 # Load config file
 #
 
-WORKING_DIR=`pwd`
-SCRIPTS_DIR=`dirname $0`
-cd $SCRIPTS_DIR
 if [ -f $FILE ]; then
 	. config.sh
 fi
