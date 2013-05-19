@@ -33,7 +33,7 @@ Then edit your `config.sh`. By default the only things you need to change are `J
 
 Additional configuration options are documented in `config.sh`. 
 
-You'll also need to set up S3 and CloudFront correctly. I will have a walkthrough for [setting up S3 and CloudFront for Jekyll](http://www.paulzumbrun.com/) correctly on my blog shortly.
+You'll also need to set up S3 and CloudFront correctly. I will have a walkthrough for [setting up S3 and CloudFront for Jekyll](http://www.paulzumbrun.com/Setting-up-S3-and-CloudFront-for-static/) correctly on my blog shortly.
 
 If this is your first time using s3cmd, you'll need to run `s3cmd --configure` to get started.
 
