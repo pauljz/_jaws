@@ -1,3 +1,5 @@
+*Disclaimer:* this project is totally unrelated to [servant-app/JAWS](https://github.com/servant-app/JAWS) (which is a cool project that you should definitely check out if you're interested in static sites and AWS). This project is also unmaintained and unused by me now.
+
 # <img src="http://www.paulzumbrun.com/img/jaws-small.png" alt="_jaws logo" /> _jaws
 
 Awesome **J**ekyll deployment scripts for **AWS** (S3 and CloudFront). Works with any other static site too.
